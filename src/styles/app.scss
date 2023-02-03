@@ -1,0 +1,30 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.App {
+    border: 1px solid red;
+    width: 100%;
+    height: auto;
+    padding: 30px;
+    text-align: center;
+    font-family: 'Fira Sans', sans-serif;
+    background-color: #05668d;
+}
+
+.title {
+    color: #fdfcdc;
+    font-size: 36px;
+}
+
+.components {
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 24px
+}
+
+@import "./editor";
+@import "./previewer";
+@import url('https://fonts.googleapis.com/css2?family=Fira+Sans:wght@400;700&display=swap');

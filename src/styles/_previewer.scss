@@ -1,0 +1,22 @@
+.previewer {
+    min-width: 450px;
+    max-width: 40%;
+    overflow: hidden;
+}
+
+.previewer__header {
+    color: #ecf39e;
+}
+
+.previewer__text {
+    border: 4px solid #ecf39e;
+    border-radius: 5px;
+    padding: 20px;
+    min-height: 640px;
+    text-align: left;
+    background-color: #ffffff;
+}
+
+img {
+    max-width: 400px;
+}
