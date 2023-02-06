@@ -9,10 +9,11 @@
 }
 
 .previewer__text {
+    overflow: scroll;
+    height: 550px;
     border: 4px solid #ecf39e;
     border-radius: 5px;
     padding: 20px;
-    min-height: 640px;
     text-align: left;
     background-color: #ffffff;
 }

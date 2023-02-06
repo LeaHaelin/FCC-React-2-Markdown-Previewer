@@ -6,7 +6,7 @@ export const Previewer = ({ inputText, marked }) => {
 
   return (
     <div className="previewer" >
-      <h3 className="previewer__header  box-header" >Previewer</h3>
+      <h2 className="previewer__header  box-header" >Previewer</h2>
       <div className="previewer__text" id='preview' dangerouslySetInnerHTML={{ __html: markdown }}  ></div>
     </div>
   )

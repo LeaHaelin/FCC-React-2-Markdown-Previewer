@@ -6,11 +6,12 @@
 
 .App {
     width: 100%;
-    height: auto;
+    height: 100vh;
     padding: 30px;
     text-align: center;
     font-family: 'Fira Sans', sans-serif;
     background-color: #05668d;
+    overflow: hidden;
 }
 
 .title {
